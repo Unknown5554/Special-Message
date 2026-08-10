@@ -257,13 +257,13 @@
       noBtn.style.transform = `translate(${randomX}px, ${randomY}px)`;
     }
 
-    function acceptProposal() {
-      document.getElementById('message').innerText = "Yippeee!";
-      // Swap cat to happy dancing GIF
-      document.getElementById('catGif').src = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3dpeHB5cnIxdWZvaWZzcndqdWF2N29kYm4zbXBsaGZ6YmsxbmR6eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/MDJ9IbxxvDUQM/giphy.gif";
-      document.getElementById('btnGroup').style.display = 'none';
-      document.getElementById('successInfo').style.display = 'block';
-    }
+function acceptProposal() {
+  document.getElementById('message').innerText = "Yippeee!";
+  // Swap cat to your uploaded file name
+  document.getElementById('catGif').src = "my-picture.png"; 
+  document.getElementById('btnGroup').style.display = 'none';
+  document.getElementById('successInfo').style.display = 'block';
+}
   </script>
 </body>
 </html>
